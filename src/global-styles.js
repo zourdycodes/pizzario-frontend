@@ -17,6 +17,7 @@ export const GlobalStyles = createGlobalStyle`
   
   ::-webkit-scrollbar {
     width: 8px;
+    background-color: #555555;
   }
   ::-webkit-scrollbar-thumb:hover {
     background: #222222;
@@ -24,7 +25,7 @@ export const GlobalStyles = createGlobalStyle`
   }
   
   ::-webkit-scrollbar-thumb {
-    background: #444444;
+    background: #333333;
     border-radius: 10px;
   }
 
