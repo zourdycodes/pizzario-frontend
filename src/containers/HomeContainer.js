@@ -1,10 +1,10 @@
-import { Navbar } from "../components";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Hero } from "../components";
 
 export const HomeContainer = () => {
   return (
     <Router>
-      <Route exact path="/" component={Navbar} />
+      <Hero />
     </Router>
   );
 };

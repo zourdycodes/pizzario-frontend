@@ -12,8 +12,6 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Kanit', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #333333;
-    font-size: 16px;
     scroll-behavior: smooth;
   }
   
@@ -27,7 +25,7 @@ export const GlobalStyles = createGlobalStyle`
   
   ::-webkit-scrollbar-thumb {
     background: #444444;
-  border-radius: 10px;
+    border-radius: 10px;
   }
 
   ::selection {
@@ -35,8 +33,6 @@ export const GlobalStyles = createGlobalStyle`
     color: white;
   }
   
-  span {
-    color: red;
-  }
+
 
 `;
