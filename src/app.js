@@ -1,7 +1,9 @@
+import { HomeContainer } from "./containers/HomeContainer";
+
 export const App = () => {
   return (
-    <div className="app">
-      <h1>Hello</h1>
-    </div>
+    <>
+      <HomeContainer />
+    </>
   );
 };
