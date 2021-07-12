@@ -1,3 +1,8 @@
+# 🐱‍🏍 Preview Project
+
+![screencapture-pizzario-frontend-vercel-app-2021-07-12-12_43_03](https://user-images.githubusercontent.com/69587933/125236849-e078ea00-e30e-11eb-8f4c-8d47820d1dbc.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -11,7 +16,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
+The page will reload if you make edi![screencapture-pizzario-frontend-vercel-app-2021-07-12-12_43_03](https://user-images.githubusercontent.com/69587933/125236857-e7076180-e30e-11eb-816e-18f725082c4c.png)ts.\
 You will also see any lint errors in the console.
 
 ### `yarn test`
