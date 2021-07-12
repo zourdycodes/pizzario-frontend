@@ -16,7 +16,7 @@ import FeatureImage3 from "../../images/featured3.jpg";
 export const Features = () => {
   return (
     <FeaturesContainer>
-      <Carousel autoPlay={false} infiniteLoop={false} showStatus={false}>
+      <Carousel autoPlay infiniteLoop showStatus={false}>
         <FeatureContent Img={FeatureImage1}>
           <InfoWrapper>
             <Heading>Pizza of the Day</Heading>

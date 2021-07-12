@@ -30,12 +30,9 @@ export const InfoWrapper = styled.div`
 
   gap: 1rem;
   @media (max-width: 600px) {
-    top: 28%;
-    right: 0%;
-    margin: 0 10px;
-    padding: 0 30px;
-
+    top: 19%;
     gap: 1.5rem;
+    left: 19%;
   }
 
   @media (max-width: 800px) {
