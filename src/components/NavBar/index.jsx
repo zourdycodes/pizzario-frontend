@@ -4,7 +4,7 @@ export const Navbar = ({ setIsOpen }) => {
   return (
     <>
       <Nav>
-        <NavLink to="/">PizzaNav</NavLink>
+        <NavLink to="/">Pizzario</NavLink>
         <NavIcon
           onClick={() => setIsOpen((/** @type {any} */ isOpen) => !isOpen)}
         >
