@@ -16,7 +16,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edi![screencapture-pizzario-frontend-vercel-app-2021-07-12-12_43_03](https://user-images.githubusercontent.com/69587933/125236857-e7076180-e30e-11eb-816e-18f725082c4c.png)ts.\
+The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
 ### `yarn test`
