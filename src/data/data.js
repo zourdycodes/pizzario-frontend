@@ -34,9 +34,6 @@ export const productData = [
     price: "$14.99",
     button: "Add to Cart",
   },
-];
-
-export const productDataTwo = [
   {
     id: uuidv4(),
     img: sweet2,

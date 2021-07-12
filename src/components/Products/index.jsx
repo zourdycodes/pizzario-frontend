@@ -11,6 +11,7 @@ import {
   ProductsCard,
   ProductTitle,
 } from "./styles/Products";
+import { Features } from "../index";
 
 export const Products = () => {
   return (
@@ -18,7 +19,24 @@ export const Products = () => {
       <ProductsHeading>Choose Your Favourite !</ProductsHeading>
 
       <ProductsWrapper>
-        {productData.map((item) => (
+        {productData.slice(0, 3).map((item) => (
+          <ProductsCard key={item.id}>
+            <ProductImage src={item.img} alt={item.alt} />
+
+            <ProductInfo>
+              <ProductTitle>{item.name}</ProductTitle>
+              <ProductDescription>{item.desc}</ProductDescription>
+              <ProductPrice>{item.price}</ProductPrice>
+              <Button>{item.button}</Button>
+            </ProductInfo>
+          </ProductsCard>
+        ))}
+      </ProductsWrapper>
+
+      <Features />
+
+      <ProductsWrapper>
+        {productData.slice(3, productData.length).map((item) => (
           <ProductsCard key={item.id}>
             <ProductImage src={item.img} alt={item.alt} />
 
